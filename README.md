@@ -207,10 +207,4 @@ scripts/
 | `scripts/plot_training_results.py` | rebuild training figures from `result.json` |
 | `scripts/evaluate_policy.py` | 100-attempt play eval |
 
-## Thesis reference
 
-Amman, M. (2026). *Learning by Seeing and Doing: Vision-Based Reinforcement Learning for Robotic Arm Manipulation*. Master’s thesis, Lappeenranta–Lahti University of Technology LUT.
-
-## License
-
-BSD-3-Clause (same as Isaac Lab). See `LICENSE`.
