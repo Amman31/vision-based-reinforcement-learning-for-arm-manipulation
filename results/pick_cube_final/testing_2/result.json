@@ -1,0 +1,721 @@
+{
+  "meta": {
+    "task": "pick_cube_final",
+    "gym_id": "ThesisRl-Pick-Cube-Final-UR5E",
+    "testing_id": "testing_2",
+    "training_id": "training_2",
+    "checkpoint": "/home/amman31/isaac_lab/thesis_rl/model/pick_cube/training_2.pt",
+    "evaluated_at": "2026-09-29T11:30:16.479600+00:00",
+    "num_envs": 1
+  },
+  "summary": {
+    "num_attempts": 100,
+    "num_success": 0,
+    "num_fail": 100,
+    "accuracy": 0.0,
+    "mean_completion_time_s": null,
+    "mean_episode_time_s": 9.469333333333333
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "success": false,
+      "timed_out": false,
+      "time_s": 0.6666666666666666,
+      "steps": 20
+    },
+    {
+      "attempt": 2,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 3,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 4,
+      "success": false,
+      "timed_out": false,
+      "time_s": 2.966666666666667,
+      "steps": 89
+    },
+    {
+      "attempt": 5,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 6,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 7,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 8,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 9,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 10,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 11,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 12,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 13,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 14,
+      "success": false,
+      "timed_out": false,
+      "time_s": 1.9333333333333333,
+      "steps": 58
+    },
+    {
+      "attempt": 15,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 16,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 17,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 18,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 19,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 20,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 21,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 22,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 23,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 24,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 25,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 26,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 27,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 28,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 29,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 30,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 31,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 32,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 33,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 34,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 35,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 36,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 37,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 38,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 39,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 40,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 41,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 42,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 43,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 44,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 45,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 46,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 47,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 48,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 49,
+      "success": false,
+      "timed_out": false,
+      "time_s": 3.3,
+      "steps": 99
+    },
+    {
+      "attempt": 50,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 51,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 52,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 53,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 54,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 55,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 56,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 57,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 58,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 59,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 60,
+      "success": false,
+      "timed_out": false,
+      "time_s": 4.933333333333334,
+      "steps": 148
+    },
+    {
+      "attempt": 61,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 62,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 63,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 64,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 65,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 66,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 67,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 68,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 69,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 70,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 71,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 72,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 73,
+      "success": false,
+      "timed_out": false,
+      "time_s": 1.7,
+      "steps": 51
+    },
+    {
+      "attempt": 74,
+      "success": false,
+      "timed_out": false,
+      "time_s": 1.4333333333333333,
+      "steps": 43
+    },
+    {
+      "attempt": 75,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 76,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 77,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 78,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 79,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 80,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 81,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 82,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 83,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 84,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 85,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 86,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 87,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 88,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 89,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 90,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 91,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 92,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 93,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 94,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 95,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 96,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 97,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 98,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 99,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    },
+    {
+      "attempt": 100,
+      "success": false,
+      "timed_out": true,
+      "time_s": 10.0,
+      "steps": 300
+    }
+  ]
+}

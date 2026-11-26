@@ -1,0 +1,10 @@
+task: pick_cube_depth
+training_id: training_1
+source: /home/amman31/isaac_lab/logs/rsl_rl/pick_cube_depth/2026-09-22_08-03-09
+iterations: 9693
+learning_iterations: 6000
+final_mean_reward: 44.67565155029297
+best_mean_reward: 57.4377326965332 @ iter 4718
+final_success_rate: 0.755859375  (Episode_Termination/success)
+max_success_rate: 0.9189453125  (Episode_Termination/success)
+success_rate_progress: early=0.0000 late=0.7678 delta=0.7678

@@ -1,0 +1,14 @@
+# Approach fingers toward the cube.
+APPROACH = 1.0
+
+# Any finger touching the cube.
+CONTACT = 4.0
+
+# XY displacement from spawn, gated on any-finger contact.
+PUSH = 8.0
+
+# Episode success: cube moved >= 1 cm in XY after any finger touched it.
+SUCCESS = 20.0
+
+STEP_PENALTY = -2.0e-3
+ACTION_RATE = -5.0e-4

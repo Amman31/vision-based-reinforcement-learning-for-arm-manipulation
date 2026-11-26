@@ -1,0 +1,7 @@
+task: pick_cube_final
+testing_id: testing_2
+checkpoint: /home/amman31/isaac_lab/thesis_rl/model/pick_cube/training_2.pt
+attempts: 100
+accuracy: 0.0% (0/100)
+mean_completion_time_s: n/a
+mean_episode_time_s: 9.4693

@@ -1,0 +1,62 @@
+{
+  "task": "pick_cube_final",
+  "runs": [
+    {
+      "testing_id": "testing_1",
+      "training_id": "training_1",
+      "checkpoint": "/home/amman31/isaac_lab/thesis_rl/model/pick_cube/training_1.pt",
+      "accuracy": 0.57,
+      "num_success": 57,
+      "num_attempts": 100,
+      "mean_completion_time_s": 1.6222222222222222,
+      "mean_episode_time_s": 5.034666666666666,
+      "rewards": {
+        "REACHING": 1.0,
+        "GRASPING": 0.5,
+        "TO_GOAL": 8.0,
+        "SUCCESS": 1500.0,
+        "ACTION_RATE": -0.01,
+        "JOINT_VELOCITY": -0.0001,
+        "DROPPING": -5.0
+      }
+    },
+    {
+      "testing_id": "testing_2",
+      "training_id": "training_2",
+      "checkpoint": "/home/amman31/isaac_lab/thesis_rl/model/pick_cube/training_2.pt",
+      "accuracy": 0.0,
+      "num_success": 0,
+      "num_attempts": 100,
+      "mean_completion_time_s": null,
+      "mean_episode_time_s": 9.469333333333333,
+      "rewards": {
+        "REACHING": 1.0,
+        "GRASPING": 4.0,
+        "TO_GOAL": 10.0,
+        "SUCCESS": 30.0,
+        "ACTION_RATE": -0.01,
+        "JOINT_VELOCITY": -0.001,
+        "DROPPING": -5.0
+      }
+    },
+    {
+      "testing_id": "testing_3",
+      "training_id": "training_3",
+      "checkpoint": "/home/amman31/isaac_lab/thesis_rl/model/pick_cube/training_3.pt",
+      "accuracy": 0.36,
+      "num_success": 36,
+      "num_attempts": 100,
+      "mean_completion_time_s": 2.638888888888889,
+      "mean_episode_time_s": 6.224333333333333,
+      "rewards": {
+        "REACHING": 2.0,
+        "GRASPING": 10.0,
+        "TO_GOAL": 50.0,
+        "SUCCESS": 1000.0,
+        "ACTION_RATE": -0.01,
+        "JOINT_VELOCITY": -0.01,
+        "DROPPING": -50.0
+      }
+    }
+  ]
+}

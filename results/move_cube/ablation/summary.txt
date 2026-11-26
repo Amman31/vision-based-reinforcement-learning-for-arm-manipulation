@@ -1,0 +1,43 @@
+Reward ablation summary
+=======================
+configs: 3
+best accuracy: 80.0%  (testing_2)
+
+[testing_1]  accuracy=69.0%  (69/100)
+  training_id: training_1
+  checkpoint: /home/amman31/isaac_lab/thesis_rl/model/move_cube/training_1.pt
+  mean_completion_time_s: 0.4056
+  mean_episode_time_s: 1.5198
+  rewards:
+    APPROACH = 1
+    CONTACT = 4
+    PUSH = 8
+    SUCCESS = 20
+    STEP_PENALTY = -0.002
+    ACTION_RATE = -0.0005
+
+[testing_2]  accuracy=80.0%  (80/100)
+  training_id: training_2
+  checkpoint: /home/amman31/isaac_lab/thesis_rl/model/move_cube/training_2.pt
+  mean_completion_time_s: 0.3569
+  mean_episode_time_s: 1.0855
+  rewards:
+    APPROACH = 1
+    CONTACT = 3
+    PUSH = 7
+    SUCCESS = 15
+    STEP_PENALTY = -0.0002
+    ACTION_RATE = -0.002
+
+[testing_3]  accuracy=5.0%  (5/100)
+  training_id: training_3
+  checkpoint: /home/amman31/isaac_lab/thesis_rl/model/move_cube/training_3.pt
+  mean_completion_time_s: 1.3000
+  mean_episode_time_s: 3.8650
+  rewards:
+    APPROACH = 1.5
+    CONTACT = 5
+    PUSH = 6
+    SUCCESS = 12
+    STEP_PENALTY = 0
+    ACTION_RATE = -0.005

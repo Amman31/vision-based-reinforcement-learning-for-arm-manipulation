@@ -1,0 +1,10 @@
+task: pick_cube_detection
+training_id: training_1
+source: /home/amman31/isaac_lab/thesis_rl/logs/rsl_rl/pick_cube_detection/2026-09-23_01-18-25
+iterations: 12162
+learning_iterations: 7003
+final_mean_reward: 7.629415035247803
+best_mean_reward: 8.521560668945312 @ iter 6946
+final_success_rate: 0.0  (Episode_Termination/success)
+max_success_rate: 0.009765625  (Episode_Termination/success)
+success_rate_progress: early=0.0005 late=0.0000 delta=-0.0005

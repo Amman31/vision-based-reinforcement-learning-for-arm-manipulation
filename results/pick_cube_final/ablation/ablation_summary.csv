@@ -1,0 +1,4 @@
+testing_id,training_id,accuracy_pct,num_success,num_attempts,mean_completion_time_s,mean_episode_time_s,SUCCESS,ACTION_RATE,REACHING,GRASPING,TO_GOAL,JOINT_VELOCITY,DROPPING
+testing_1,training_1,57.0000,57,100,1.622222,5.034667,1500,-0.01,1,0.5,8,-0.0001,-5
+testing_2,training_2,0.0000,0,100,,9.469333,30,-0.01,1,4,10,-0.001,-5
+testing_3,training_3,36.0000,36,100,2.638889,6.224333,1000,-0.01,2,10,50,-0.01,-50

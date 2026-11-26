@@ -1,0 +1,10 @@
+task: move_cube
+training_id: training_3
+source: /home/amman31/isaac_lab/thesis_rl/logs/rsl_rl/move_cube_rgbd/2026-09-12_22-42-29
+iterations: 5153
+learning_iterations: 5000
+final_mean_reward: 0.38455796241760254
+best_mean_reward: 0.4794010818004608 @ iter 4043
+final_success_rate: 0.63330078125  (Episode_Termination/success)
+max_success_rate: 0.79541015625  (Episode_Termination/success)
+success_rate_progress: early=0.2700 late=0.6236 delta=0.3536

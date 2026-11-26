@@ -1,0 +1,23 @@
+# From pick_cube/training_2/rewards.txt
+
+# Dense reach toward cube.
+REACHING = 1
+
+# Grasp gate (fingers closed near cube).
+GRASPING = 4
+
+# Dense guidance of grasped cube toward GOAL_POS.
+TO_GOAL = 10
+
+# Episode success bonus at goal.
+SUCCESS = 30
+
+# Action-rate regularization.
+ACTION_RATE = -0.01
+
+# Joint-velocity regularization.
+JOINT_VELOCITY = -0.001
+
+# Cube dropped / off-table penalty.
+DROPPING = -5
+

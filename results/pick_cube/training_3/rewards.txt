@@ -1,0 +1,10 @@
+reaching = RewTerm(func=mdp.reach_cube, weight=2.0)
+    grasping = RewTerm(func=mdp.grasp_gate, weight=10)
+    to_goal = RewTerm(func=mdp.move_to_goal, weight=50.0)
+    success = RewTerm(func=mdp.success, weight=1000.0)
+
+    action_rate = RewTerm(func=mdp.action_rate_l2, weight=-0.01)
+    joint_velocity = RewTerm(func=mdp.joint_vel_l2, weight=-0.01)
+    dropping = RewTerm(func=mdp.cube_dropped, weight=-50.0)
+
+    time = 2h 21 minute

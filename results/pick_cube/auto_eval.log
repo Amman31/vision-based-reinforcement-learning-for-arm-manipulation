@@ -1,0 +1,51 @@
+
+# spawn ['/home/amman31/isaac_lab/isaac_env/bin/python', '/home/amman31/isaac_lab/thesis_rl/scripts/run_post_training_eval.py', '--wait-pid', '387703', '--task', 'pick_cube', '--log-dir', '/home/amman31/isaac_lab/logs/rsl_rl/pick_cube/2026-09-26_14-05-51']
+[INFO] Waiting for training pid 387703 to exit...
+[INFO] Training pid 387703 exited; starting evaluation.
+[INFO] Running: /home/amman31/isaac_lab/isaac_env/bin/python /home/amman31/isaac_lab/thesis_rl/scripts/evaluate_policy.py --task ThesisRl-Pick-Cube-UR5E --checkpoint /home/amman31/isaac_lab/thesis_rl/model/pick_cube/training_1.pt --training-id training_1 --num_envs 1 --num-attempts 100 --enable_cameras --headless physics=isaacsim_physx
+usage: evaluate_policy.py [--help] [--hydra-help] [--version]
+                          [--cfg {job,hydra,all}] [--resolve]
+                          [--package PACKAGE] [--run] [--multirun]
+                          [--shell-completion] [--config-path CONFIG_PATH]
+                          [--config-name CONFIG_NAME]
+                          [--config-dir CONFIG_DIR]
+                          [--experimental-rerun EXPERIMENTAL_RERUN]
+                          [--info [{all,config,defaults,defaults-tree,plugins,searchpath}]]
+                          [overrides ...]
+evaluate_policy.py: error: unrecognized arguments: --enable_cameras --headless
+[INFO]: Parsing configuration from: thesis_rl.tasks.pick_cube.config.ur5e.env_cfg:PickCubeEnvCfg
+[INFO]: Parsing configuration from: thesis_rl.tasks.pick_cube.config.ur5e.agents.rsl_rl_ppo_cfg:PPORunnerCfg
+
+# spawn ['/home/amman31/isaac_lab/isaac_env/bin/python', '/home/amman31/isaac_lab/thesis_rl/scripts/run_post_training_eval.py', '--wait-pid', '414389', '--task', 'pick_cube', '--log-dir', '/home/amman31/isaac_lab/logs/rsl_rl/pick_cube/2026-09-28_10-58-50']
+[INFO] Waiting for training pid 414389 to exit...
+[INFO] Training pid 414389 exited; starting evaluation.
+[INFO] Running: /home/amman31/isaac_lab/isaac_env/bin/python /home/amman31/isaac_lab/thesis_rl/scripts/evaluate_policy.py --task ThesisRl-Pick-Cube-UR5E --checkpoint /home/amman31/isaac_lab/thesis_rl/model/pick_cube/training_2.pt --training-id training_2 --num_envs 1 --num-attempts 100 --enable_cameras --headless physics=isaacsim_physx
+usage: evaluate_policy.py [--help] [--hydra-help] [--version]
+                          [--cfg {job,hydra,all}] [--resolve]
+                          [--package PACKAGE] [--run] [--multirun]
+                          [--shell-completion] [--config-path CONFIG_PATH]
+                          [--config-name CONFIG_NAME]
+                          [--config-dir CONFIG_DIR]
+                          [--experimental-rerun EXPERIMENTAL_RERUN]
+                          [--info [{all,config,defaults,defaults-tree,plugins,searchpath}]]
+                          [overrides ...]
+evaluate_policy.py: error: unrecognized arguments: --enable_cameras --headless
+[INFO]: Parsing configuration from: thesis_rl.tasks.pick_cube.config.ur5e.env_cfg:PickCubeEnvCfg
+[INFO]: Parsing configuration from: thesis_rl.tasks.pick_cube.config.ur5e.agents.rsl_rl_ppo_cfg:PPORunnerCfg
+
+# spawn ['/home/amman31/isaac_lab/isaac_env/bin/python', '/home/amman31/isaac_lab/thesis_rl/scripts/run_post_training_eval.py', '--wait-pid', '416699', '--task', 'pick_cube', '--log-dir', '/home/amman31/isaac_lab/logs/rsl_rl/pick_cube/2026-09-28_13-46-20']
+[INFO] Waiting for training pid 416699 to exit...
+[INFO] Training pid 416699 exited; starting evaluation.
+[INFO] Running: /home/amman31/isaac_lab/isaac_env/bin/python /home/amman31/isaac_lab/thesis_rl/scripts/evaluate_policy.py --task ThesisRl-Pick-Cube-UR5E --checkpoint /home/amman31/isaac_lab/thesis_rl/model/pick_cube/training_3.pt --training-id training_3 --num_envs 1 --num-attempts 100 --enable_cameras --headless physics=isaacsim_physx
+usage: evaluate_policy.py [--help] [--hydra-help] [--version]
+                          [--cfg {job,hydra,all}] [--resolve]
+                          [--package PACKAGE] [--run] [--multirun]
+                          [--shell-completion] [--config-path CONFIG_PATH]
+                          [--config-name CONFIG_NAME]
+                          [--config-dir CONFIG_DIR]
+                          [--experimental-rerun EXPERIMENTAL_RERUN]
+                          [--info [{all,config,defaults,defaults-tree,plugins,searchpath}]]
+                          [overrides ...]
+evaluate_policy.py: error: unrecognized arguments: --enable_cameras --headless
+[INFO]: Parsing configuration from: thesis_rl.tasks.pick_cube.config.ur5e.env_cfg:PickCubeEnvCfg
+[INFO]: Parsing configuration from: thesis_rl.tasks.pick_cube.config.ur5e.agents.rsl_rl_ppo_cfg:PPORunnerCfg

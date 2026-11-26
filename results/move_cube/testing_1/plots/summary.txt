@@ -1,0 +1,7 @@
+task: move_cube
+testing_id: testing_1
+checkpoint: /home/amman31/isaac_lab/thesis_rl/model/move_cube/training_1.pt
+attempts: 100
+accuracy: 69.0% (69/100)
+mean_completion_time_s: 0.4056
+mean_episode_time_s: 1.5198

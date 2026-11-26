@@ -1,0 +1,2 @@
+number of env = 64
+time = 4 hour 21 minutes

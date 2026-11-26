@@ -1,0 +1,10 @@
+task: pick_cube
+training_id: training_3
+source: /home/amman31/isaac_lab/logs/rsl_rl/pick_cube/2026-09-28_13-46-20
+iterations: 4794
+learning_iterations: 3000
+final_mean_reward: 425.07989501953125
+best_mean_reward: 442.64599609375 @ iter 2984
+final_success_rate: 0.02976226806640625  (Episode_Termination/success)
+max_success_rate: 0.1244354248046875  (Episode_Termination/success)
+success_rate_progress: early=0.0000 late=0.0387 delta=0.0387

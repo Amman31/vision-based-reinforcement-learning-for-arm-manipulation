@@ -1,0 +1,13 @@
+
+# spawn ['/home/amman31/isaac_lab/isaac_env/bin/python', '/home/amman31/isaac_lab/thesis_rl/scripts/run_post_training_eval.py', '--wait-pid', '262070', '--task', 'pick_cube_detection', '--log-dir', '/home/amman31/isaac_lab/thesis_rl/logs/rsl_rl/pick_cube_detection/2026-09-23_01-18-25']
+[INFO] Waiting for training pid 262070 to exit...
+[INFO] Training pid 262070 exited; starting evaluation.
+Traceback (most recent call last):
+  File "/home/amman31/isaac_lab/thesis_rl/scripts/run_post_training_eval.py", line 90, in <module>
+    main()
+  File "/home/amman31/isaac_lab/thesis_rl/scripts/run_post_training_eval.py", line 72, in main
+    gym_id_for_task(args.task),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/amman31/isaac_lab/thesis_rl/scripts/training_results_lib.py", line 62, in gym_id_for_task
+    raise ValueError(f"No Gymnasium id registered for task family {task!r}")
+ValueError: No Gymnasium id registered for task family 'pick_cube_detection'

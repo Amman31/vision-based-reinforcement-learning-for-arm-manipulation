@@ -1,0 +1,7 @@
+task: pick_cube_depth
+testing_id: testing_1
+checkpoint: /home/amman31/isaac_lab/thesis_rl/model/pick_cube_depth/training_1.pt
+attempts: 100
+accuracy: 76.0% (76/100)
+mean_completion_time_s: 2.9061
+mean_episode_time_s: 3.7943

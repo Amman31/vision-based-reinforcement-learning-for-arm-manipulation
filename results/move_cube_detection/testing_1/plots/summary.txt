@@ -1,0 +1,7 @@
+task: move_cube_detection
+testing_id: testing_1
+checkpoint: /home/amman31/isaac_lab/thesis_rl/model/move_cube_detection/training_1.pt
+attempts: 100
+accuracy: 66.0% (66/100)
+mean_completion_time_s: 0.2636
+mean_episode_time_s: 1.5340

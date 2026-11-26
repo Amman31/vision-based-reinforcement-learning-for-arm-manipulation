@@ -1,0 +1,10 @@
+task: move_cube_detection
+training_id: training_1
+source: /home/amman31/isaac_lab/thesis_rl/logs/rsl_rl/move_cube_detection/2026-09-12_13-04-38
+iterations: 7278
+learning_iterations: 5000
+final_mean_reward: 4.35084342956543
+best_mean_reward: 5.91605281829834 @ iter 4746
+final_success_rate: 0.85888671875  (Episode_Termination/success)
+max_success_rate: 0.9130859375  (Episode_Termination/success)
+success_rate_progress: early=0.5366 late=0.8296 delta=0.2931

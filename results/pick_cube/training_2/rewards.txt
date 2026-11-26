@@ -1,0 +1,13 @@
+@configclass
+class RewardsCfg:
+    reaching = RewTerm(func=mdp.reach_cube, weight=1.0)
+    grasping = RewTerm(func=mdp.grasp_gate, weight=4)
+    to_goal = RewTerm(func=mdp.move_to_goal, weight=10.0)
+    success = RewTerm(func=mdp.success, weight=30.0)
+
+    action_rate = RewTerm(func=mdp.action_rate_l2, weight=-0.01)
+    joint_velocity = RewTerm(func=mdp.joint_vel_l2, weight=-0.001)
+    dropping = RewTerm(func=mdp.cube_dropped, weight=-5.0)
+
+
+    training time = 2h 11m
